@@ -1,0 +1,17 @@
+{
+  "name": "uiElement_A",
+  "blockId": "UDHs8Pdsq4kDnR77ndbN0",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/devthalal/uiElement_A",
+    "ssh": "git@github.com:devthalal/uiElement_A.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ]
+}
